@@ -57,4 +57,10 @@ F. true
 16. part2-question16.js
 17. The result will be [2, 4, 6]. This is because the function we're passing in (doSomething) will return the double of the integer that is inputted into it. Because of this, on line 4 of the modifyArray function, it will call this function under the parameter name callback for every element in the array, and inserting that into the returned array. This means that every element in [1, 2, 3] will just be doubled and returned by modifyArray.
 18. part2-question18.js
-19. 
+19. The output is first of all 1, and then 4 (negligibly at the same time) since they're printed by the function without any delay. Because of the setTimeout function, the two other output is delayed. 3 should be outputted "immediately" after, as in, the next event cycle since the delay value is 0. Meanwhile, after 1 second, 2 will be outputted since the delay is 1000 (miliseconds). So, the output overall is:
+```
+1
+4
+3
+2
+```
