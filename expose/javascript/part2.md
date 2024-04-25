@@ -55,4 +55,6 @@ F. true
 
 15. The "==" notation compares the two compared values's value without worrying about the data type of the two compared values; in practice, they take into account auto conversion so that for example the int 2 and the string '2' will return true if compared because the int 2 can be converted to '2', and they will be the same. Meanwhile, "===" is more tight and compares the two values's data type on top of their values.
 16. part2-question16.js
-17. 
+17. The result will be [2, 4, 6]. This is because the function we're passing in (doSomething) will return the double of the integer that is inputted into it. Because of this, on line 4 of the modifyArray function, it will call this function under the parameter name callback for every element in the array, and inserting that into the returned array. This means that every element in [1, 2, 3] will just be doubled and returned by modifyArray.
+18. part2-question18.js
+19. 
