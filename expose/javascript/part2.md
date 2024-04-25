@@ -11,11 +11,11 @@
 11.  [ 50, 100, 150 ] is returned. There is no error here because there is no reassignment of constants; pushing into a constant like line 8 is fine (not a reassignment, still points to the same array). The values are like such because it's doing the same thing as the previous code block (number 8), but it's not doing any rounding, which doesn't matter since none of our inputs cause decimals anyway.
 12.  Notations:
 
-A. 
-B. 
-C. 
-D. 
-E. 
+A. student.name
+B. student["Grad Year"]
+C. student.greeting();
+D. student["Favorite Teacher"].name
+E. student.courseLoad[0]
 
-13. d
+13. 
 14. 
