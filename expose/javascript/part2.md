@@ -21,5 +21,35 @@ D. student["Favorite Teacher"].name
 
 E. student.courseLoad[0]
 
-13. 
-14. 
+13. Results:
+A. '32'
+
+B. 1
+
+C. 3
+
+D. '3null'
+
+E. 4
+
+F. 0
+
+G. '3undefined'
+
+H. NaN
+
+14. dd
+A. true
+
+B. false
+
+C. true
+
+D. false
+
+E. false
+
+F. true
+
+15. The "==" notation compares the two compared values's value without worrying about the data type of the two compared values; in practice, they take into account auto conversion so that for example the int 2 and the string '2' will return true if compared because the int 2 can be converted to '2', and they will be the same. Meanwhile, "===" is more tight and compares the two values's data type on top of their values.
+16. part2-question16.js
