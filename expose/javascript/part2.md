@@ -1,1 +1,4 @@
-
+1. 3 is printed. This is because i was declared as var, so it lasts even after the for loop ends. Its value is 3 because it goes up by 1 after every iteration and it stops after it's not < prices.length (which is 3).
+2. 150 is printed. This is because it was declared as var inside the loop, so it lasts even after the for loop ends. Its value is 150 because, as implied in answer number 1, the last iteration of the loop (that runs to the inner part of it) is when i = 2, so discountedPrice = prices[2] * (1-discount). prices at index 2 is 300, and 1-discount is 0.5. As such, it's value is 300 * 0.5 = 150.
+3. 150 is printed. This is because it was declared as var inside the loop, so it lasts even after the for loop ends, and it retains the value assigned at the last iteration. Its value is 150 because it's from Math.round(discountedPrice * 100) / 100. From answer number 2, discountedPrice at this last iteration is 150. As such, 150 * 100 = 15000, which is already an integer so Math.round doesn't change anything; 15000 / 100 = 150.
+4. 
